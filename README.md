@@ -1,1 +1,1 @@
-# gravitationsKraft.github.io
+# Sinus.github.io
