@@ -92,6 +92,9 @@ function draw() {
     if (run) {
         visual = false;
         background(255);
+        fill(0);
+        text("Press with the mouse to create a object, the information of the first (green) is shown in the graphs."+
+            "\nThe mass (represented as the radius) is set by the pressing time.",5,20)
         if (ps[0] != undefined) {
             points = [];
             for (i = ps[0].acelT.length - 1; i >= 0; i--) {
